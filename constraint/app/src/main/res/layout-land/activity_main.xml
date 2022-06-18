@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/linearLayout"
+       android:layout_width="430dp"
+       android:layout_height="213dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.536"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <ImageView
+          android:id="@+id/imageView5"
+          android:layout_width="88dp"
+          android:layout_height="196dp"
+          android:layout_margin="10dp"
+          app:srcCompat="@drawable/yasin" />
+
+      <ImageView
+          android:id="@+id/imageView6"
+          android:layout_width="88dp"
+          android:layout_height="196dp"
+          android:layout_margin="10dp"
+          app:srcCompat="@drawable/yasin"
+          tools:layout_editor_absoluteX="232dp"
+          tools:layout_editor_absoluteY="132dp" />
+
+      <ImageView
+          android:id="@+id/imageView7"
+          android:layout_width="88dp"
+          android:layout_height="196dp"
+          android:layout_margin="10dp"
+          app:srcCompat="@drawable/yasin"
+          tools:layout_editor_absoluteX="22dp"
+          tools:layout_editor_absoluteY="8dp" />
+
+      <ImageView
+          android:id="@+id/imageView8"
+          android:layout_width="88dp"
+          android:layout_height="196dp"
+          android:layout_margin="10dp"
+          app:srcCompat="@drawable/yasin" />
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
